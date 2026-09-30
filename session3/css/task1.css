@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f2f7;
+}
+
+header {
+    background-color: #3158ad;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+main {
+    width: 80%;
+    margin: 30px auto;
+}
+
+.about{
+    background-color: white;
+    text-align: center;
+    padding: 24px;
+    margin-bottom: 30px;
+}
+
+.about h2 {
+    margin: 0 0 10px;
+    color: #3159ad;
+    font-size: 24px;
+}
+
+.about p {
+    margin: 0;
+    color: #555;
+    font-size: 20px;
+}
+
+.menu {
+    background-color: antiquewhite;
+    color: #806522;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.menu h3 {
+    margin: 0 0 8px;
+    font-size: 20px;
+}
+
+.menu p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+footer {
+    background: black;
+    color: lightgray;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}

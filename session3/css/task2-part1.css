@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+.card {
+    background-color: white;
+    text-align: center;
+    width: 30%;
+    margin: 50px auto;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+}
+
+.card .circle {
+    margin: 20px auto;
+    background-color: #0036ab;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #a7cddd;
+}
+
+.card h2 {
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.card h3 {
+    color: #3158ad;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.card .follow {
+    width: 25%;
+    height: 45px;
+    border-radius: 36px;
+    background-color: #3158ad;
+    color: white;
+    border: none;
+    font-size: 17px;
+    margin-bottom: 25px;
+    margin-right: 10px;
+}
+
+.card .message {
+    width: 25%;
+    height: 45px;
+    border-radius: 36px;
+    border: 3px solid #3158ad;
+    background-color: white;
+}

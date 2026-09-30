@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    border: 1px solid lightgray;
+    width: 20%;
+    margin: 30px auto;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.card .head {
+    padding: 15px;
+    background-color: #0549dd;
+    color: white ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .head .plan {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.card .head h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.card .head .length {
+    font-size: 14px;
+    color: #dddddd;
+}
+
+.card .info p {
+    border-bottom: 1px solid #f5f5f5;
+    padding: 15px;
+}
+
+.card .buy {
+    border: none;
+    background-color: #FFC107;
+    width: 70%;
+    padding: 15px;
+    margin: 20px 0;
+    border-radius: 30px;
+    font-size: 18px;
+}
