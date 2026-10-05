@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.padding-top-bottom {
+    padding: 4% 0;
+}
+
+.text-purple {
+    color: #0d001e;
+}
+
+nav {
+    background-color: #230361;
+    padding: 1%;
+    color: white;
+}
+
+nav h2 a i {
+    color: darkorange;
+}
+
+nav ul , nav ul li , nav h2{
+    display: inline-block;
+}
+
+nav ul {
+    margin-left: 54%;
+}
+
+nav ul li {
+    padding-left: 30px;
+}
+
+.sec-one {
+    background-image: url("../images/Arte\ digital\ \(59\).jpeg");
+    background-size: cover;
+    text-align: center;
+    padding: 4%;
+}
+
+.sec-one img {
+    width: 100%;
+}
+
+.sec-one h3 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 1%;
+}
+
+.sec-one p {
+    color: #ccc;
+    font-size: 17px;
+    margin-bottom: 2%;
+}
+
+.sec-one .firstLink {
+    background-color: orange;
+    padding: 1.3%;
+    display: inline-block;
+    width: 13%;
+    border-radius: 32px;
+    margin-right: 2%;
+}
+
+.sec-one .secondLink {
+    display: inline-block;
+    width: 13% ;
+    padding: 1%;
+    color: white;
+    border: 3px solid white;
+    border-radius: 31px;
+}
+
+.sec-two {
+    text-align: center;
+}
+
+.sec-two .info h3 {
+    font-size: 35px;
+    margin-bottom: 1%;
+}
+
+.sec-two .info p {
+    color: #666;
+    margin-bottom: 4%;
+    font-size: 18px;
+}
+
+.sec-two .card {
+    display: inline-block;
+    border: 3px solid #ccc;
+    width: 30%;
+    padding: 3%;
+    border-radius: 20px;
+}
+
+.sec-two .two {
+    margin: 0 3%;
+}
+
+.sec-two .card i {
+    color: #0f29b9;
+    font-size: 45px;
+    background-color: #008eff61;
+    width: 85px;
+    height: 85px;
+    line-height: 1.9;
+    border-radius: 50%;
+    margin-bottom: 7%;
+}
+
+.sec-two .card h4 {
+    font-size: 22px;
+    margin-bottom: 3%;
+}
+
+.sec-two .card p {
+    color: #666;
+}
+
+.sec-three {
+    background-color: #eee;
+    text-align: center;
+}
+
+.sec-three .info h3 {
+    font-size: 35px;
+    margin-bottom: 1%;
+}
+
+.sec-three .info p {
+    color: #666;
+    margin-bottom: 4%;
+    font-size: 18px;
+}
+
+.sec-three .card {
+    display: inline-block;
+    width: 30%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.sec-three .two {
+    margin: 0 3%;
+}
+
+.sec-three .card img {
+    width: 100%;
+    height: 160px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.sec-three .card .details {
+    text-align: left;
+    padding: 5%
+}
+
+.sec-three .card .details h4 {
+    font-size: 22px;
+    margin-bottom: 3%;
+}
+
+.sec-three .card .details i {
+    color: #00398f;
+}
+
+.sec-three .card .details p {
+    display: inline-block;
+    margin-right: 2%;
+    color: #666;
+}
+
+.sec-three .card .details .price {
+    display: block;
+    margin-top: 5%;
+    background-color: #17911c;
+    color: white;
+    width: 20%;
+    text-align: center;
+    padding: 2%;
+    border-radius: 22px;
+    font-size: 18px;
+}
+
+.sec-four {
+    background-color: #2a3da5;
+    text-align: center;
+}
+
+.sec-four .box {
+    display: inline-block;
+    width: 24%;
+}
+
+.sec-four .box i {
+    color: goldenrod;
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+
+.sec-four .box h4 {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 1%;
+}
+
+.sec-four .box p {
+    color: #ccc;
+}
+
+.sec-five {
+    text-align: center;
+}
+
+.sec-five .info h3 {
+    font-size: 35px;
+    margin-bottom: 1%;
+}
+
+.sec-five .info p {
+    color: #666;
+    margin-bottom: 4%;
+    font-size: 18px;
+}
+
+.sec-five .card {
+    width: 30%;
+    display: inline-block;
+    border-top: 4px solid #0422c7;
+    border-radius: 20px;
+    background-color: #eee;
+    padding: 3%;
+}
+
+.sec-five .two {
+    margin: 0 3%;
+}
+
+.sec-five .card i {
+    color: #0422c7;
+    font-size: 40px;
+    margin-bottom: 5%;
+}
+
+.sec-five .card h4 {
+    font-size: 20px;
+    margin-bottom: 3%;
+}
+
+.sec-five .card p {
+    color: #666;
+}
+
+footer {
+    background-color: #081143;
+    text-align: center;
+}
+
+footer .icon {
+    display: inline-block;
+    background-color: #293fb5;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 4;
+    margin: 0 2% 2%;
+}
+
+footer .icon i {
+    color: white;
+    font-size: 25px;
+}
+
+footer p {
+    color: #ccc;
+    font-size: 20px;
+}

@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.padding-top-bottom {
+    padding: 4% 0;
+}
+
+section {
+    background-image: url(../images/3f06e1071c661981e82f2b43a9bb7b13.jpg);
+    background-size: 100% 100%;
+
+}
+
+section .overlay {
+    background-color: #00000052;
+    width: 100%;
+    height: 100%
+}
+
+.part-one , .part-two {
+    display: inline-block;
+    width: 40%;
+    margin: 0 10%;
+    vertical-align: top;
+}
+
+.part-one {
+    width: 20%;
+}
+
+section .container .part-one h2 {
+    display: inline-block;
+    margin-bottom: 1%;
+}
+
+section .container .part-one .first {
+    color: white;
+}
+
+section .container .part-one .second {
+    color: orange;
+}
+
+section .container .part-one h3 {
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 5%;
+    font-size: 17px;
+}
+
+section .container .part-one hr {
+    width: 15%;
+    margin-bottom: 5%;
+}
+
+section .container .part-one p {
+    color: gray;
+    margin-bottom: 5%;
+    font-size: 15px;
+}
+
+section .container .part-one button {
+    color: white;
+    background-color: transparent;
+    padding: 2% 3%;
+    border: 1px solid white;
+}
+
+.part-two {
+    background-color: white;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.part-two h3 {
+    background-color: #ccc;
+    text-align: center;
+    padding: 3%;
+
+}
+
+.part-two h3 span {
+    color: orange;
+}
+
+.part-two form {
+    padding: 4%;
+}
+
+.part-two input {
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 5%;
+}
+
+.part-two button {
+    display: block;
+    width: 100%;
+    border: none;
+    color: white;
+    background-color: orange;
+    padding: 3%;
+    outline: none;
+}
+
+.form h3 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.form button {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}

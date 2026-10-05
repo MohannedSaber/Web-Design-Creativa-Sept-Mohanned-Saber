@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.padding-top-bottom {
+    padding: 4% 0;
+}
+
+section {
+    margin: 10% 0;
+    text-align: center;
+}
+
+section .card {
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    width: 30%;
+    position: relative;
+    top: 50%;
+    left: 35%;
+    padding: 5%;
+}
+
+section .card i {
+    font-size: 80px;
+    position: absolute;
+    bottom: calc(100% - 35px);
+    left: 39%;
+    color: #2c2cbd;
+}
+
+section .card a {
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 1% 5%;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 10%;
+    left: 78%;
+}
+
+section .info h3 {
+    color: #000a97;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+
+section .info p {
+    color: #034bbb;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 7%;
+}
+
+section .info .icons i {
+    font-size: 25px;
+    position: static;
+    color: #2c2cbd;
+    background-color: #bfdbf5;
+    width: 18%;
+    padding: 4%;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 5%;
+    margin-bottom: -10%;
+}
