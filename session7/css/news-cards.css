@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cairo", sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.padding-top-bottom {
+    padding: 3% 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section p {
+    color: #087F7B;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+
+section h2 {
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+
+section .cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+section .cards .card {
+    width: 30%;
+    box-shadow: 7px 6px 9px 0 rgb(0 0 0 / 13%), -6px -5px 9px 0 rgb(0 0 0 / 12%);
+    border-radius: 10px;
+}
+
+section .cards .card:hover {
+    border: 2px solid #087F7B;
+} 
+
+section .cards .card .image {
+    position: relative;
+}
+
+section .cards .card .image img {
+    width: 100%;
+    height: 320px;
+    padding: 4%;
+    border-radius: 31px;
+}
+
+section .cards .card .image .links {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 94%;
+    z-index: 2;
+}
+
+section .cards .card .image .links .one {
+    display: inline-block;
+    background-color: #000000ad;
+    padding: 1% 7%;
+    border-radius: 32px;
+    color: white;
+    margin-right: 5%;
+}
+
+section .cards .card .image .links .two {
+    display: inline-block;
+    background-color: #000000ad;
+    padding: 1% 7%;
+    border-radius: 32px;
+    color: white;
+}
+
+section .cards .card .image button {
+    position: absolute;
+    top: 45%;
+    left: 26%;
+    padding: 4% 8%;
+    border: none;
+    border-radius: 50px;
+    font-weight: bold;
+    display: none;
+}
+
+section .cards .card .image button i {
+    margin-left: 10px;
+}
+
+section .cards .card:hover .image button {
+    display: block;
+    z-index: 2;
+}
+
+section .cards .card .image .overlay {
+    position: absolute;
+    top: 4%;
+    left: 4%;
+    background-color: #000000a1;
+    width: 92%;
+    height: 91%;
+    border-radius: 15px;
+    display: none;
+    z-index: 1;
+}
+
+section .cards .card:hover .image .overlay {
+    display: block;
+}
+
+
+section .cards .card .info {
+    padding: 0% 8%;
+}
+
+section .cards .card .info .text {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+section .cards .card .info .text .date {
+    display: flex;
+    align-items: center;
+}
+
+section .cards .card .info .text .date i {
+    color: #7C848F;
+    font-size: 15px;
+    margin-top: -10%;
+}
+
+section .cards .card .info .date p {
+    color: #7C848F;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+section .cards .card .info .text .comment {
+    display: flex;
+    align-items: center;
+}
+
+section .cards .card .info .text .comment i {
+    color: #7C848F;
+    font-size: 15px;
+    margin-top: -10%;
+}
+
+section .cards .card .info .text .comment p {
+    color: #7C848F;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+section .cards .card .info h3 {
+    color: #087F7B;
+    font-size: 30px;
+    margin: 3% 0 5%;
+}
+
+section .cards .card .info p {
+    color: #7C848F;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 7%;
+}
+
+section .cards .card .info .profile {
+    border-top: 2px solid #d4d4d4;
+    padding: 8% 0;
+    display: flex;
+    align-items: center;
+}
+
+section .cards .card .info .profile img {
+    width: 20%;
+    height: 20%;
+}
+
+section .cards .card .info .profile .info {
+    padding: 0;
+    margin-left: 5%;
+    width: 55%;
+}
+
+section .cards .card .info .profile .info p {
+    color: black;
+    margin: -2% 0 2%;
+    width: 80%;
+}
+
+section .cards .card .info .profile .info span {
+    color: #7C848F;
+}
+
+section .cards .card .info .profile button {
+    background-color: #087F7B;
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    border: none;
+    color: white;
+} 
