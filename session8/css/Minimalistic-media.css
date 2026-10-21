@@ -171,7 +171,7 @@
     width: 100%;
   }
   .back-image {
-    margin-bottom: 185%;
+    margin-bottom: 210%;
   }
   .back-image .container {
     padding: 20% 6%;
@@ -196,7 +196,7 @@
   .back-image .boxes {
     flex-direction: column;
     top: 85%;
-    left: 22%;
+    left: 25%;
     height: 170%;
   }
   .back-image .boxes .box {

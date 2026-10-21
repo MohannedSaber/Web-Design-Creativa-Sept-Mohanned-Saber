@@ -22,24 +22,6 @@ a {
   padding: 4% 0;
 }
 
-/* @media (min-width: 768px) {
-    .container {
-        width: 750px;
-    }
-}
-
-@media (min-width: 992px) {
-    .container {
-        width: 970px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .container {
-        width: 1170px;
-    }
-} */
-
 .main-title {
   border-bottom: 1px solid #d4d4d4;
   font-size: 20px;
@@ -266,7 +248,7 @@ a {
 .shop .content .cards .card .image .hover .top {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30%;
+  margin-bottom: 20%;
   font-size: 25px;
 }
 
@@ -408,6 +390,7 @@ a {
 
 .services .cards .row .card .image .hover p {
   margin-bottom: 5%;
+  margin-top: -7%;
 }
 
 .services .cards .row .card .image .hover button {
@@ -510,7 +493,7 @@ a {
 }
 
 .about .content .text {
-  width: 50%;
+  width: 45%;
 }
 
 .about .content .text p {
@@ -520,22 +503,24 @@ a {
 
 .about .content .images {
   position: relative;
+  width: 45%;
 }
 
 .about .content .images .img-one img {
   width: 100%;
   border-radius: 20px;
+  height: 890px;
 }
 
 .about .content .images .img-two {
   text-align: center;
   position: absolute;
-  bottom: 4%;
+  bottom: 5%;
   padding: 4%;
   background-color: white;
-  width: 50%;
+  width: 70%;
   border-radius: 20px;
-  left: -23%;
+  left: -22%;
 }
 
 .about .content .images .img-two img {
