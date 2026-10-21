@@ -1,0 +1,225 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .back-image .boxes {
+    left: 10%;
+    gap: 45px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .wellbeing .title {
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  .wellbeing .content .image {
+    display: none;
+  }
+  .wellbeing .content .text {
+    text-align: center;
+    padding-bottom: 5%;
+  }
+  .produce .image {
+    width: 45%;
+  }
+  .produce .text {
+    width: 45%;
+  }
+  .produce .text .heading h3 {
+    font-size: 45px;
+  }
+  .produce .text .heading p {
+    font-size: 13px;
+  }
+  .produce .text .info div i {
+    font-size: 25px;
+    width: 70px;
+    height: 35px;
+  }
+  .produce .text .info div p {
+    font-size: 15px;
+    color: #285e67;
+  }
+  .eat .image {
+    display: none;
+  }
+  .eat .text {
+    width: 100%;
+    text-align: center;
+    padding: 8%;
+  }
+  .back-image .container {
+    padding: 6% 6% 15%;
+  }
+  .back-image .boxes {
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 3%;
+    bottom: -25%;
+    left: 10%;
+    width: 80%;
+  }
+  .back-image .boxes .box {
+    width: 48%;
+  }
+  .back-image .content h3 {
+    font-size: 35px;
+  }
+  .back-image .content button {
+    margin-bottom: 10%;
+  }
+  footer {
+    margin-top: 15%;
+  }
+  footer .content .logo {
+    margin-bottom: 3%;
+    width: 100%;
+  }
+  footer .content .logo span {
+    margin-right: 1%;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar .logo {
+    width: 30%;
+  }
+  .navbar ul {
+    display: none;
+    gap: 50px;
+  }
+  .navbar .links {
+    display: block;
+  }
+  .main .text {
+    margin-bottom: 15%;
+  }
+  .main .text h3 {
+    font-size: 35px;
+    margin-bottom: 5%;
+  }
+  .main .text p {
+    margin-bottom: 5%;
+  }
+  .main .text button {
+    padding: 4% 10%;
+  }
+  .main .images {
+    flex-direction: column;
+    row-gap: 10px;
+  }
+  .main .images .img {
+    width: 100%;
+  }
+  .wellbeing .container {
+    text-align: center;
+  }
+  .wellbeing .title {
+    font-size: 48px;
+    padding-top: 15%;
+    margin-bottom: 15%;
+  }
+  .wellbeing .content .text {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .wellbeing .content .text .col {
+    width: 100%;
+  }
+  .wellbeing .content .text .col p {
+    width: 100%;
+  }
+
+  .wellbeing .content .image {
+    display: none;
+  }
+  .produce .container {
+    flex-direction: column;
+  }
+  .produce .image {
+    width: 100%;
+  }
+  .produce .text {
+    width: 100%;
+  }
+  .produce .text .heading {
+    text-align: center;
+  }
+  .produce .text .heading h3 {
+    font-size: 45px;
+  }
+  .produce .text .info div {
+    column-gap: 10px;
+  }
+  .produce .text .info div p {
+    color: #285e67;
+  }
+  .eat .image {
+    display: none;
+  }
+  .eat .text {
+    width: 100%;
+    text-align: center;
+    margin: 15% 0;
+  }
+  .eat .text .heading {
+    font-size: 45px;
+  }
+  .eat .text .cols {
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .eat .text .cols .col {
+    width: 100%;
+  }
+  .back-image {
+    margin-bottom: 185%;
+  }
+  .back-image .container {
+    padding: 20% 6%;
+  }
+  .back-image .content i {
+    font-size: 30px;
+    width: 60px;
+    height: 60px;
+    line-height: 2;
+    margin-bottom: 15%;
+  }
+  .back-image .content h3 {
+    font-size: 30px;
+    margin-bottom: 10%;
+  }
+  .back-image .content p {
+    display: none;
+  }
+  .back-image .content button {
+    padding: 4% 12%;
+  }
+  .back-image .boxes {
+    flex-direction: column;
+    top: 85%;
+    left: 22%;
+    height: 170%;
+  }
+  .back-image .boxes .box {
+    width: 100%;
+  }
+  footer .content {
+    flex-direction: column;
+    padding: 15%;
+  }
+  footer .content .logo {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  footer .content ul {
+    flex-wrap: wrap;
+  }
+  footer .content ul li {
+    width: 30%;
+  }
+  footer .icons {
+    margin-left: 15%;
+  }
+  footer .container .icons a {
+    margin-right: 10%;
+  }
+}

@@ -1,0 +1,419 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cairo", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.color {
+  color: #2b2b2b;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.padding-top-bottom {
+  padding: 4% 0;
+}
+
+.navbar {
+  padding: 2% 0;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  color: #285e67;
+  width: 20%;
+}
+
+.navbar .logo span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #d0d0d0;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+
+.navbar ul {
+  display: flex;
+  gap: 50px;
+}
+
+.navbar .links {
+  position: relative;
+  display: none;
+}
+
+.navbar .links .icon {
+  width: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.navbar .links .icon span {
+  background-color: black;
+  margin-bottom: 5px;
+  height: 2px;
+}
+
+.navbar .links .icon .one {
+  width: 100%;
+}
+
+.navbar .links .icon .two {
+  width: 100%;
+}
+
+.navbar .links .icon .three {
+  width: 60%;
+  transition: 0.3s;
+}
+
+.navbar .links:hover .icon .three {
+  width: 100%;
+}
+
+.main .container {
+  text-align: center;
+}
+
+.main .text {
+  margin-bottom: 5%;
+}
+
+.main .text h3 {
+  color: #2a2a2a;
+  font-size: 64px;
+  margin-bottom: 1%;
+}
+
+.main .text p {
+  margin-bottom: 2%;
+}
+
+.main .text button {
+  border: none;
+  color: white;
+  background-color: #285e67;
+  padding: 1% 4%;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.main .images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main .images .img {
+  height: 100%;
+  width: 48%;
+}
+
+.main .images .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.wellbeing .container {
+  background-color: #f4f4f4;
+  padding: 6%;
+  padding-bottom: 0;
+}
+
+.wellbeing .title {
+  font-size: 50px;
+}
+
+.wellbeing .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wellbeing .content .text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wellbeing .content .text .col {
+  width: 45%;
+}
+
+.wellbeing .content .text .col i {
+  background-color: #285e67;
+  color: white;
+  width: 58px;
+  height: 58px;
+  border-radius: 9px;
+  text-align: center;
+  font-size: 35px;
+  line-height: 1.6;
+  margin-bottom: 5%;
+}
+
+.wellbeing .content .text .col p {
+  line-height: 1.5;
+  width: 100%;
+}
+
+.wellbeing .content .image {
+  width: 50%;
+  height: 100%;
+}
+
+.wellbeing .content .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.produce .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.produce .image {
+  width: 30%;
+}
+
+.produce .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.produce .text {
+  width: 65%;
+}
+
+.produce .text .heading {
+  margin-bottom: 10%;
+}
+
+.produce .text .heading h3 {
+  font-size: 50px;
+  margin-bottom: 5%;
+}
+
+.produce .text .heading p {
+  font-size: 15px;
+}
+
+.produce .text .info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 40%;
+  width: 100%;
+  gap: 40px;
+}
+
+.produce .text .info div {
+  display: flex;
+  align-items: center;
+}
+
+.produce .text .info div i {
+  display: inline-block;
+  color: #285e67;
+  font-size: 35px;
+  width: 52px;
+  height: 52px;
+  border: 1px solid #285e67;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 1.3;
+  margin-right: 2%;
+}
+
+.produce .text .info div p {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.eat .container {
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4%;
+}
+
+.eat .image {
+  height: 100%;
+  width: 45%;
+}
+
+.eat .image img {
+  width: 100%;
+  height: 100%;
+}
+
+.eat .text {
+  width: 50%;
+}
+
+.eat .text .heading {
+  margin-bottom: 10%;
+  font-size: 50px;
+}
+
+.eat .text .cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eat .text .cols .col {
+  width: 45%;
+}
+
+.eat .text .cols .col i {
+  background-color: #ebbfae;
+  color: white;
+  width: 58px;
+  height: 58px;
+  border-radius: 9px;
+  font-size: 30px;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.back-image .container {
+  background-image: url(../assets/background-image.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-radius: 10px;
+  position: relative;
+  padding: 6%;
+}
+
+.back-image .content {
+  text-align: center;
+  color: white;
+  margin-bottom: 5%;
+}
+
+.back-image .content i {
+  font-size: 45px;
+  width: 80px;
+  height: 80px;
+  border: 1px solid white;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 1.7;
+  margin-bottom: 3%;
+}
+
+.back-image .content h3 {
+  font-size: 50px;
+  margin-bottom: 3%;
+}
+
+.back-image .content p {
+  font-size: 13px;
+  margin-bottom: 3%;
+}
+
+.back-image .content button {
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  padding: 1% 6%;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 3%;
+}
+
+.back-image .boxes {
+  background-color: #fce2d7;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 6%;
+  text-align: center;
+  position: absolute;
+  bottom: -25%;
+  left: 15%;
+  gap: 45px;
+}
+
+.back-image .boxes .box {
+  width: 25%;
+}
+
+.back-image .boxes .box i {
+  font-size: 30px;
+  width: 82px;
+  height: 82px;
+  border-radius: 50%;
+  border: 1px solid black;
+  line-height: 2.8;
+}
+
+.back-image .boxes .box p {
+  font-size: 20px;
+}
+
+footer {
+  margin-top: 10%;
+  padding-top: 4%;
+}
+
+footer .container {
+  background-color: #285e67;
+  padding: 4% 6%;
+}
+
+footer .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+footer .content .logo span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: #d0d0d0;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+
+footer .content .logo {
+  color: white;
+  width: 20%;
+}
+
+footer .content ul {
+  display: flex;
+  gap: 50px;
+}
+
+footer .content ul li a {
+  color: white;
+}
+
+footer .container .icons a {
+  color: white;
+  margin-right: 2%;
+}

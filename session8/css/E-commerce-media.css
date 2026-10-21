@@ -1,0 +1,406 @@
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hero .navbar h2 {
+    width: 17%;
+  }
+  .hero .navbar ul {
+    margin-left: 5%;
+  }
+  .hero .navbar button {
+    padding: 1% 2%;
+    margin-left: 2%;
+    width: 15%;
+  }
+  .content .cards .card .image .hover .top {
+    margin-bottom: 20% !important;
+    font-size: 25px !important;
+  }
+  .content .cards .card .image .hover .center {
+    margin-bottom: 20% !important;
+  }
+  .content .cards .card .image .hover .center h3 {
+    font-size: 28px !important;
+  }
+  .services .cards .row .card .image .text {
+    font-size: 27px;
+    left: 26%;
+  }
+  .services .cards .special .image .text {
+    font-size: 35px;
+    left: 21%;
+  }
+  .about .content .text {
+    width: 45%;
+  }
+  .about .content .images {
+    width: 45%;
+  }
+  .about .content .images .img-one {
+    height: 100%;
+  }
+  .about .content .images .img-one img {
+    height: 90%;
+  }
+  .about .content .images .img-two {
+    bottom: 4%;
+    width: 60%;
+  }
+  .team .cards .card {
+    width: 24%;
+  }
+  .in-touch .details form {
+    width: 45%;
+  }
+  .in-touch .details .cards {
+    width: 50%;
+  }
+  .in-touch .details .cards .card h3 {
+    font-size: 19px;
+  }
+  .in-touch .details .cards .card p {
+    font-size: 12px;
+  }
+  .in-touch .details .cards .card h4 {
+    font-size: 13px;
+  }
+  .join .details form {
+    width: 40%;
+  }
+  .footerlists .contents .lists {
+    width: 70%;
+  }
+  .copyright .text p {
+    font-size: 17px;
+  }
+  .copyright .icons {
+    width: 31%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .hero .navbar h2 {
+    width: 25%;
+    margin-left: 0;
+  }
+  .hero .navbar ul {
+    margin-left: 2%;
+    gap: 14px;
+  }
+  .hero .navbar button {
+    padding: 1% 2%;
+    margin-left: 2%;
+    width: 16%;
+  }
+  .hero .content {
+    width: 50%;
+  }
+  .hero .content h3 {
+    font-size: 40px;
+    margin-bottom: 5%;
+  }
+  .hero .content p {
+    margin-bottom: 10%;
+  }
+  .hero .content a {
+    padding: 4% 5%;
+  }
+  .shop .content .cards .card .image .hover .top {
+    margin-bottom: 10%;
+    font-size: 20px;
+  }
+  .shop .content .cards .card .image .hover .center {
+    margin-bottom: 15%;
+  }
+  .shop .content .cards .card .image .hover .center h3 {
+    font-size: 20px;
+  }
+  .shop .content .cards .card .image .hover .center p {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  .shop .content .cards .card .image .hover .bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  .shop .content .cards .card .image .hover .bottom .one {
+    width: 50%;
+  }
+  .shop .content .cards .card .image .hover .bottom .two {
+    padding: 3% 5%;
+    font-size: 12px;
+    width: 50%;
+  }
+  .services .cards .row .card .image .text {
+    font-size: 23px;
+  }
+
+  .services .cards .row .card .image .hover {
+    margin-top: -6%;
+  }
+  .services .cards .row .card .image .hover p {
+    font-size: 12px;
+    line-height: 1;
+  }
+  .services .cards .special {
+    margin-left: 1%;
+  }
+  .services .cards .special .image .text {
+    font-size: 30px;
+    left: 22%;
+  }
+  .about .content .images {
+    display: none;
+  }
+  .about .content .text {
+    width: 100%;
+    color: #667085;
+  }
+  .team .cards .card {
+    width: 24%;
+  }
+  .blog .details .video {
+    display: none;
+  }
+  .blog .details .text {
+    width: 100%;
+  }
+  .blog .details .text h3 {
+    font-size: 23px;
+    padding-bottom: 5%;
+  }
+  .blog .details .text p {
+    margin-top: 5%;
+  }
+  .blog .details .text button {
+    padding: 2% 4%;
+  }
+  .in-touch .details form {
+    width: 50%;
+  }
+  .in-touch .details .cards {
+    width: 45%;
+  }
+  .in-touch .details .cards .card h3 {
+    font-size: 19px;
+  }
+  .in-touch .details .cards .card p {
+    font-size: 12px;
+  }
+  .in-touch .details .cards .card h4 {
+    font-size: 13px;
+  }
+  .join .details form {
+    width: 65%;
+  }
+  .footerlists .contents .lists {
+    width: 70%;
+  }
+  .copyright .text p {
+    font-size: 18px;
+  }
+  .copyright .icons {
+    width: 42%;
+  }
+}
+
+@media (max-width: 767px) {
+  .content {
+    border: none;
+  }
+  .hero {
+    background-size: 145% 100%;
+  }
+  .hero .navbar {
+    justify-content: space-between;
+    padding: 6% 0 0;
+    margin-bottom: 20%;
+  }
+  .hero .navbar h2 {
+    width: 50%;
+  }
+  .hero .navbar ul {
+    display: none;
+  }
+  .hero .navbar button {
+    display: none;
+  }
+  .hero .navbar .links {
+    display: block;
+    text-align: right;
+  }
+  .hero .content {
+    width: 90%;
+  }
+  .hero .content h3 {
+    font-size: 40px;
+  }
+  .shop .content .header form {
+    display: none;
+  }
+  .shop .main-title .search {
+    display: block;
+  }
+  .shop .content .cards {
+    flex-direction: column;
+    row-gap: 15px;
+    margin-top: 5%;
+  }
+  .shop .content .cards .card {
+    width: 100%;
+  }
+  .shop .content .cards .three {
+    display: none;
+  }
+  .shop .content a {
+    display: none;
+  }
+  .services .cards {
+    display: block;
+  }
+  .services .cards .row {
+    gap: 10px;
+    width: 100%;
+  }
+  .services .cards .row .card {
+    width: 48%;
+  }
+  .services .cards .row .card .image .text {
+    font-size: 19px;
+  }
+  .services .cards .row .card:hover .image .text {
+    top: 40%;
+  }
+  .services .cards .row .card .image .hover {
+    display: none;
+  }
+  .shop .content .cards .card .image .hover .center h3 {
+    font-size: 30px;
+  }
+  .shop .content .cards .card .image .hover .center {
+    color: white;
+    margin-bottom: 25%;
+  }
+  .services .cards .special {
+    width: 100%;
+    margin-top: 5px;
+  }
+  .services .cards .special .image img {
+    height: 178px;
+    border-radius: 5px;
+  }
+  .services .cards .special .image .text {
+    top: 35%;
+    left: 37%;
+    font-size: 30px;
+  }
+  .services .cards .special:hover .image .text {
+    top: 35%;
+  }
+  .services .cards .special .image .hover {
+    display: none;
+  }
+  .about .content .images {
+    display: none;
+  }
+  .about .content .text {
+    width: 100%;
+    color: #667085;
+  }
+  .team .cards {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .team .cards .card {
+    width: 48%;
+  }
+  .team .cards .card .text {
+    text-align: center;
+  }
+  .blog .details .video {
+    display: none;
+  }
+  .blog .details .text {
+    width: 100%;
+  }
+  .blog .details .text h3 {
+    font-size: 23px;
+    padding-bottom: 5%;
+  }
+  .blog .details .text p {
+    margin-top: 5%;
+  }
+  .in-touch .details {
+    flex-wrap: wrap;
+  }
+  .in-touch .details form {
+    width: 100%;
+    padding: 10% 6%;
+  }
+  .in-touch .details .cards {
+    width: 100%;
+    margin: 15% 0;
+    row-gap: 15px;
+  }
+  .in-touch .details form .fullname input {
+    width: 100%;
+  }
+  .in-touch .details .cards .card {
+    width: 45%;
+  }
+  .in-touch .details .cards .card h3 {
+    font-size: 19px;
+  }
+  .in-touch .details .cards .card p {
+    font-size: 12px;
+  }
+  .in-touch .details .cards .card h4 {
+    font-size: 13px;
+  }
+  .join .details {
+    margin: 10% 0 15%;
+    flex-wrap: wrap;
+  }
+  .join .details .text {
+    margin-bottom: 10%;
+  }
+  .join .details form {
+    width: 100%;
+  }
+  .join .details form input {
+    width: 100%;
+  }
+  .join .details form button {
+    margin-top: 5%;
+    width: 100%;
+    margin-left: 0;
+  }
+  .footerlists .contents {
+    flex-wrap: wrap;
+  }
+  .footerlists .contents .text {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  .footerlists .contents .lists {
+    flex-wrap: wrap;
+    width: 100%;
+    row-gap: 15px;
+  }
+  .footerlists .contents .lists .list {
+    width: 50%;
+  }
+  .copyright {
+    flex-wrap: wrap;
+  }
+  .copyright .text {
+    width: 100%;
+    text-align: center;
+  }
+  .copyright .text p {
+    font-size: 18px;
+  }
+  .copyright .icons {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;
+  }
+}

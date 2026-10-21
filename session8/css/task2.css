@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cairo" , sans-serif;
+}
+
+body {
+    background-color: #eee;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.padding-top-bottom {
+    padding: 4% 0;
+}
+
+.one .card {
+    width: 40%;
+    background-color: #00808021;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.one .card .info {
+    padding: 10%;
+    z-index: 2;
+    position: relative;
+    /* transition: 0.2s; */
+}
+
+.one .card .info h3 {
+    transition-delay: 0.2s;
+
+}
+
+.one .card .info p {
+    color: #666;
+    transition-delay: 0.2s;
+
+}
+
+.one .card .info i {
+    position: absolute;
+    top: 7%;
+    right: 2%;
+    color: white;
+}
+
+
+.one .card .button {
+    width: 10%;
+    text-align: center;
+    background-color: teal;
+    border-bottom-left-radius: 47px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2%;
+    transition: 0.3s linear;
+    z-index: -1;
+    height: 28%;
+}
+
+.one .card:hover .button {
+    width: 110%;
+    height: 100%;
+}
+
+.one .card:hover .info h3 {
+    color: white;
+}
+
+.one .card:hover .info p {
+    color: lightgray;
+} 
+
+.one .card .button i {
+    color: white;
+}
+
+.two .card {
+    width: 45%;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 3px solid #d4d4d4;
+    position: relative;
+    overflow: hidden;
+}
+
+.two .card .info {
+    padding: 7%;
+}
+
+.two .card .info i {
+    font-size: 25px;
+}
+
+.two .card .info a i {
+    font-size: 14px;
+}
+
+.two .card .effect {
+    background-color: #cb214a;
+    width: 20%;
+    position: absolute;
+    padding: 20%;
+    top: -10%;
+    transition: 2s;
+    right: -36%;
+    transform: rotate(-10deg);
+
+}
+
+.two .card .effect a {
+    display: block;
+    position: absolute;
+    top: 4%;
+    right: 86%;
+    z-index: 2;
+    color: white;
+    z-index: 2;
+}
+
+.two .card:hover {
+    border: 3px solid #cb214a;
+}
