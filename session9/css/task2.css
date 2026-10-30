@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Cairo" , sans-serif;
+}
+
+body {
+    background-color: #ac71e3;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.padding-top-bottom {
+    padding: 5% 0;
+}
+
+.animationCard {
+    width: 40%;
+    text-align: center;
+}
+
+.animationCard .card {
+    background-color: white;
+    padding: 4%;
+    border: 5px solid teal;
+    border-radius: 10px;
+    width: 100%;
+    margin-top: 20%;
+    animation: changeCard 5s linear infinite alternate;
+    transition: 0.3s;
+    animation: changeBorder 4s linear infinite alternate;
+}
+
+.animationCard .card .logo {
+    animation: changeLogo 4s linear infinite alternate;
+    margin: 5% 0 2%;
+}
+
+.animationCard .card .logo img {
+    width: 30%;
+}
+
+.animationCard .card .info {
+    margin-top: -5%;
+}
+
+
+.animationCard .card .info h3 {
+    color: #096dd9;
+    font-size: 35px;
+    animation: changeColor 4s linear infinite alternate;
+} 
+
+.animationCard .card .info p {
+    font-size: 20px;
+    margin-bottom: 4%;
+} 
+
+.animationCard .card .info  button {
+    background-color: #1890ff;
+    border: none;
+    color: white;
+    padding: 2% 9%;
+    border-radius: 45px;
+    font-size: 19px;
+    animation: changeScale 0.9s infinite linear alternate;
+} 
+
+
+@keyframes changeCard {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-40px);
+
+    }
+}
+
+@keyframes changeBorder {
+    0% {
+        border-color: teal;
+    }
+    50% {
+        border-color: #096dd9;
+    }
+    75% {
+        border-color: red;
+    }
+    100% {
+        border-color: teal;
+    }
+}
+
+@keyframes changeLogo {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-40px);
+    }
+}
+
+@keyframes changeColor {
+    from {
+        color: #096dd9;
+    }
+    to {
+        color: red;
+    }
+}
+
+@keyframes changeScale {
+    from {
+        transform: scaleX(1);
+    }
+    to {
+        transform: scaleX(0.9);
+    }
+}
