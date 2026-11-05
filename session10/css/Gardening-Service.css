@@ -1,0 +1,98 @@
+* {
+  font-family: "Cairo", sans-serif;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+.fs-darkblue {
+  color: #232a42;
+}
+
+.hero {
+  background-image: url(../assets/hero.png);
+  height: 825px;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.image-details {
+  height: 786px;
+}
+
+.card {
+  height: 310px;
+}
+
+.about .comments .card .comment .info .icon i {
+  color: goldenrod;
+}
+
+.about .comments .card {
+  transition: 0.5s linear;
+}
+
+.about .comments .card:hover {
+  background-color: #2da884;
+}
+
+.about .comments .card:hover .comment > p {
+  color: white;
+}
+
+.about .comments .card:hover .comment .info h3,
+.about .comments .card:hover .comment .info p {
+  color: white;
+}
+
+.questions .accordion .accordion-item {
+  transition: 0.3s linear;
+}
+
+.questions .accordion .accordion-header {
+  transition: 0.3s linear;
+}
+
+.questions .accordion .accordion-item:open {
+  background-color: #2da884;
+}
+
+.questions .accordion .accordion-item:open .accordion-header {
+  background-color: #2da884;
+  color: white;
+}
+
+.questions .accordion .accordion-item:open .accordion-body p {
+  color: white;
+}
+
+.blog {
+  height: 1200px;
+}
+
+.blog .card .info {
+  color: #525252;
+}
+
+.contact-us .form {
+  background-color: #2da884;
+}
+
+.contact-us .form input {
+  border: 2px solid white;
+}
+
+.contact-us .form input::placeholder {
+  color: white;
+  font-size: 18px;
+}
+
+.contact-us .form input:focus {
+  outline: none;
+}
+
+footer {
+  background-color: #2da884;
+}
